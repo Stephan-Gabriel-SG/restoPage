@@ -1,1 +1,3 @@
-console.log('Hello world')
+import firstPage from "./first-page";
+
+firstPage()
