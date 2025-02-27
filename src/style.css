@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.subtitle{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: start;
+    margin-bottom: -10px;
+}
+.paragraph{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+/* home */
+.home-image{
+    width: 150px;
+}
+
+.homesItems{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 650px;
+}
