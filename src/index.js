@@ -1,3 +1,4 @@
-import firstPage from "./first-page";
+import homePage from "./home-page";
+import './style.css'
 
-firstPage()
+homePage()
