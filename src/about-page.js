@@ -7,11 +7,11 @@ const aboutPage = ()=>{
     const objContent = [
         {
             subtitle:'Our Story',
-            content:"Founded by a team of food enthusiasts with deep roots in Antsirabe, we set out on a journey to showcase the incredible diversity and richness of our local cuisine. From humble beginnings, our dream has grown into a thriving hub for food lovers who want to explore the authentic tastes of Madagascar."
+            content:"Founded by a team of food enthusiasts with deep roots in Antsirabe, we set out on a journey to showcase the incredible diversity and richness of our local cuisine. From humble beginnings, our dream has grown into a thriving hub for food lovers who want to explore the authentic tastes of <strong>Madagascar.</strong>"
         },
         {
             subtitle:'Our Mission',
-            content:"At Antsirabe Gourmet, we believe that food is more than just nourishment – it's an experience, a way to connect with culture, and a celebration of community. We are dedicated to preserving and promoting the culinary heritage of Antsirabe, while also embracing innovation and creativity in our dishes."
+            content:"At <strong>Antsirabe Gourmet</strong>, we believe that food is more than just nourishment – it's an experience, a way to connect with culture, and a celebration of community. We are dedicated to preserving and promoting the culinary heritage of Antsirabe, while also embracing innovation and creativity in our dishes."
         },
         {
             subtitle:'',
