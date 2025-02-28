@@ -3,7 +3,7 @@ const homePage = ()=>{
     const content = document.getElementById('content')
     const titleLabel = document.createElement('h1')
     const homeImage = document.createElement('img')
-    const homesItems = document.createElement('div')
+    const contentItems = document.createElement('div')
     const objContent = [
         {
             subtitle:'Discover the unique flavors of Antsirabe, the culinary gem of Madagascar',
@@ -21,7 +21,7 @@ const homePage = ()=>{
     ]
 
     homeImage.setAttribute('class','home-image')
-    homesItems.setAttribute('class', 'homesItems')
+    contentItems.setAttribute('class', 'contentItems')
     titleLabel.innerText="Welcome to Antsirabe Gourmet!"
     homeImage.src=localDishes
     
@@ -32,7 +32,7 @@ const homePage = ()=>{
         contentText.setAttribute('class', 'paragraph')
         subtitle.innerText=obj.subtitle
         contentText.innerHTML=obj.content
-        homesItems.append(
+        contentItems.append(
             subtitle,
             contentText
         )
@@ -41,7 +41,7 @@ const homePage = ()=>{
     content.append(
         titleLabel,
         homeImage,
-        homesItems
+        contentItems
     )
 }
 
